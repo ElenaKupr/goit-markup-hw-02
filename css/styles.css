@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #181817;
+  --secondary-color: #6f6f6f;
+  --accent-color: #f6d88c;
+  --common-white: #f8f3ec;
+  --main-font: "Darker Grotesque", sans-serif;
+  --title-size: 65px;
+  --text-size: 22px;
+}
