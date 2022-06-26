@@ -1,31 +1,128 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Портфолио</title>
 </head>
+
 <body>
-  <section>
-    <h1>Перечень проектов</h1>
-    <ul>
-      <li>
-        <button type="button"></button>
-      </li>
-      <li>
-        <button type="button"></button>
-      </li>
-      <li>
-        <button type="button"></button>
-      </li>
-      <li>
-        <button type="button"></button>
-      </li>
-      <li>
-        <button type="button"></button>
-      </li>
-    </ul>
-  </section>
+<!-- навигация -->
+    <div class="wrapper">
+      <header class="header">
+        <a class="logo link" href="#" lang="en"><span class="logo-accent">Web</span>Studio</a>
+        <nav class="navigation">
+          <ul class="list navigation-list">
+            <li class="navigation-item">
+              <a href="./index.html" class="link navigation-link">Студия</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="link navigation-link">Портфолио</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="link navigation-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="contacts">
+          <a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
+      </header>
+    </div>
+    <main>
+
+      <section>
+        <h1>Перечень проектов</h1>
+        <ul class="list">
+          <li>
+            <button type="button">Все</button>
+          </li>
+          <li>
+            <button type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button">Приложения</button>
+          </li>
+          <li>
+            <button type="button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button">Маркетинг</button>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <!-- указать размер картинок -->
+        <ul class="list">
+          <li>
+            <a class="link" rel="preconnect" href="#"><img src="./images/macbook.jpg" alt=""></a>
+            <h2>Технокряк</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <a class="link" rel="preconnect" href="#"><img src="./images/volleyball.jpg" alt=""></a>
+            <h2>Постер New Orlean vs Golden Star</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <a class="link" rel="preconnect" href="#"><img src="./images/seafood.jpg" alt=""></a>
+            <h2>Ресторан Seafood</h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <a class="link" rel="preconnect" href="#"><img src="./images/headphones.jpg" alt=""></a>
+            <h2>Проект Prime</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <a class="link" rel="preconnect" href="#"><img src="./images/boxes.jpg" alt=""></a>
+            <h2>Проект Boxes</h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <a class="link" rel="preconnect" href="#"><img src="./images/monitor.jpg" alt=""></a>
+            <h2>Inspiration has no Borders</h2>
+            <p>Веб-сай</p>
+          </li>
+          <li>
+            <a class="link" rel="preconnect" href="#"><img src="./images/magazine.jpg" alt=""></a>
+            <h2>Издание Limited Edition</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <a class="link" rel="preconnect" href="#"><img src="./images/label.jpg" alt=""></a>
+            <h2>Проект LAB</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <a class="link" rel="preconnect" href="#"><img src="./images/notebook.jpg" alt=""></a>
+            <h2>Growing Business</h2>
+            <p>Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+  <!-- подвал -->
+    <footer class="fotter">
+      <div class="fotter-blok">
+        <a class="logo link" href="#" lang="en"><span class="logo-accent">Web</span>Studio</a>
+        <address class="address-blok">
+          <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="list footer-list">
+            <li class="fotter-item"><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+            <li class="fotter-item"><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+      
+    </footer>
 </body>
 </html>
